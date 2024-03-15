@@ -1,0 +1,54 @@
+/* reset all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    margin-block: 2rem;
+    min-width: 1300px;
+}
+
+.header span {
+    color: #767676;
+}
+
+.jumborton {
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-group {
+    padding: 1rem;
+    margin-inline: auto;
+}
+
+.list-group-item {
+    width: 1000px;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.img-thumbnail {
+    width: 15rem;
+}
+
+.list-group-item h3 {
+    display: inline;
+    margin-inline: 2rem;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: rgb(48, 84, 215);
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+}
